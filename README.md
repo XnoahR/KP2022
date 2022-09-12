@@ -1,6 +1,14 @@
-
 <h1 align="center"> Praktikum Konsep Pemrograman - S1 Informatika UNS </h1>
-<h2 align="center"> Tahun Ajaran 2022/2023 Semester Ganjil </h2>
-
 <p align ="center">  <img width = "240" height "240" src = "https://github.com/XnoahR/KP2022/blob/main/Fold/MeGC.jpg" </p>
-<p></p>
+<h3 align="center"> Tahun Ajaran 2022/2023 Semester Ganjil </h3>
+<h3 align ="center">  >> <a align = "center" href = "https://github.com/stackofsugar/TeachingAssistant-KP2021/blob/main/silabus.md"> <span align="center">Klik Disini untuk membuka materi</span></a> << </h3>
+<h2> Tim Asisten Dosen : </h2>
+
+- Rio Saputro (IF 2021) [Github](https://github.com/XnoahR)
+- Afif Nur Fauzi (IF 2021) [Github](https://github.com/alscheift)
+- Muhammad Anang Fathur Rohman (IF 2021) [Github](https://github.com/anangfathh)
+- Mohammad Al Furqon (IF 2021) [Github](https://github.com/Alfurqon02)
+- Hafidh Muhammad Akbar (IF 2021) [Github](https://github.com/hafidhmuhammadakbar)
+- Hezkiel Bram Setiawan (IF 2021) [Github](https://github.com/haizk)
+- Andika Kavin Septiano (IF 2021) [Github](https://github.com/ndkvin)
+- Alfiki Diastama Afan Firdaus (IF 2021) [Github](https://github.com/alfikiafan)
