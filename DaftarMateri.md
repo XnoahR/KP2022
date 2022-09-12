@@ -9,5 +9,5 @@
 - Bab 3 - Program Control
   1. [Pemilihan dengan Switch](Bab3-ProgramControl/1-PemilihanDenganSwitch.md)
   2. [Perulangan Menggunakan For Statement](Bab3-ProgramControl/2-PerulanganMenggunakanFor.md)
-  3. x
-  4. y
+  3. [Perulangan Menggunakan Do While](Bab3-ProgramControl/3-PerulanganMenggunakanDoWhile.md)
+  4. [Break dan Continue](Bab3-ProgramControl/4-BreakAndContinue.md)
