@@ -32,5 +32,22 @@ Ini adalah perulangan For ke-0
 Ini adalah perulangan For ke-1
 Ini adalah perulangan For ke-2
 ```
+Analisa program : 
+1. Variabel `i` **diinisialisasi** sebagai variabel counter dengan nilai awal `i` adalah 0
+2. **Kondisi** `i < 3` adalah **BENAR** (0 lebih kecil daripada 3) sehingga isi dari `for statement` dieksekusi
+3. Setelah dieksekusi, dilakukan proses **update** sehingga nilai dari `i` adalah 1
+4. **Kondisi** `i < 3` adalah **BENAR** (1 lebih kecil daripada 3) sehingga isi dari `for statement` dieksekusi
+5. Setelah dieksekusi, dilakukan proses **update** sehingga nilai dari `i` adalah 2
+6. **Kondisi** `i < 3` adalah **BENAR** (2 lebih kecil daripada 3) sehingga isi dari `for statement` dieksekusi
+7. Setelah dieksekusi, dilakukan proses **update** sehingga nilai dari `i` adalah 3
+8. **Kondisi** `i < 3` adalah **SALAH** (3 TIDAK lebih kecil daripada 3) sehingga proses perulangan `for statement` selesai
 
-## Catatan Penting
+Flowchart : 
+<p align ="center">  <img width = "450" height "350" src = "https://github.com/XnoahR/KP2022/blob/main/Fold/ForStatement1.png" </p>
+
+**CATATAN!!!**
+
+Perhatikan nilai dari variabel counter dan kondisi serta tanda pertidaksamaan yang digunakan!
+- apabila `i = 0` dan kondisi `i < 5` maka akan dilakukan perulangan sebanyak 5 kali, yaitu saat `i = 0, 1, 2, 3, 4`.
+- apabila `i = 0` dan kondisi `i <= 5` maka akan dilakukan perulangan sebanyak 6 kali, yaitu saat `i = 0, 1, 2, 3, 4, 5`.
+- apabila `i = 1` dan kondisi `i < 5` maka akan dilakukan perulangan sebanyak 4 kali, yaitu saat `i = 1, 2, 3, 4`.
