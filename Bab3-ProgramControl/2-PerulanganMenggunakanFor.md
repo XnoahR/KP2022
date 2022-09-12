@@ -43,7 +43,7 @@ Analisa program :
 8. **Kondisi** `i < 3` adalah **SALAH** (3 TIDAK lebih kecil daripada 3) sehingga proses perulangan `for statement` selesai.
 
 Flowchart : 
-<p align ="center">  <img width = "480" height "380" src = "https://github.com/XnoahR/KP2022/blob/main/Fold/ForStatement1.png" </p>
+<p align ="center">  <img width = "480" height "380" src = "https://github.com/XnoahR/KP2022/blob/main/Material/For.png" </p>
 
 **CATATAN!!!**
 
