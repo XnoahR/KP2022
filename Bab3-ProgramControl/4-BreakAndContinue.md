@@ -1,3 +1,4 @@
+[< Materi Sebelumnya (Perulangan menggunakan "do...while")](3-PerulanganMenggunakanDoWhile.md)
 # 3.4 - Break and Continue
 
 ## Break
@@ -47,3 +48,6 @@ Output
     perulangan ke 7 kali
     perulangan ke 8 kali
     perulangan ke 9 kali
+    
+    
+Bab 2 selesai. [Kembali ke Daftar Materi](../DaftarMateri.md)
