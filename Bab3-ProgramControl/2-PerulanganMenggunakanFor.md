@@ -85,14 +85,29 @@ Ini adalah perulangan For ke-4
 </details>
     
 ## Tambahan
-1. Pastikan nilai yang ada pada variabel counter dan kondisi benar, sehingga program dapat berhenti.
+1. Pastikan nilai yang ada pada variabel counter dan kondisi benar, sehingga program dapat berhenti.\
 Berikut merupakan contoh program yang gagal :
 ```c
 for( int i=10; i>=0; i++ ){
     printf("Hello World!\n");
 }
 ```
-Pada kode di atas, sampai kapanpun `i` di_increment_ pasti akan selalu lebih besar dari 0 sehingga akan menghasilkan _infinite loop_ dan program kalian tidak akan berhenti melakukan perulangan.
+Pada kode di atas, sampai kapanpun `i` di_increment_ pasti akan selalu lebih besar dari 0 sehingga akan menghasilkan _infinite loop_ dan program kalian tidak akan berhenti melakukan perulangan.\
+Kode di atas dapat diperbaiki dengan cara mengubah nilai update menjadi _decrement_, sehingga program dapat berjalan.\
+```c
+for( int i=5; i>=0; i-- ){
+    printf("Hello World!\n");
+}
+```
+Output:
+```
+Hello World!
+Hello World!
+Hello World!
+Hello World!
+Hello World!
+Hello World!
+```
 
 2. Variabel yang dideklarasi pada bagian **inisialisasi** HANYA bisa digunakan di dalam `for statement` saja
 ```c
