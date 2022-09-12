@@ -12,9 +12,9 @@ for(/* inisialisasi */ ; /* kondisi */ ; /* update */){
     /* program yang ingin diulang... */
 }
 ```
-- Inisialisasi: menentukan kondisi awal perulangan. Biasanya kondisi awal ini berisi perintah untuk memberikan nilai kepada variabel counter. Variabel counter sendiri adalah sebuah variabel yang akan menentukan berapa banyak perulangan dilakukan (biasanya variabel bertipe `int` dan bernama `i`,`j`,`k`, dll. Namun, kalian tetap bebas akan memakai tipe data / nama apa saja)
-- Kondisi: merupakan kondisi yang harus dipenuhi agar perulangan berjalanakan. Perulangan akan dilakukan apabila kondisi adalah BENAR atau TRUE dan berhenti apabila kondisi adalah SALAH atau FALSE
-- Update: digunakan untuk meng-update nilai dari pencacah (biasanya berupa increment/decrement). Proses ini akan dieksekusi setelah isi dari `for statement` habis
+- Inisialisasi: menentukan kondisi awal perulangan. Biasanya kondisi awal ini berisi perintah untuk memberikan nilai kepada variabel counter. Variabel counter sendiri adalah sebuah variabel yang akan menentukan berapa banyak perulangan dilakukan (biasanya variabel bertipe `in.t` dan bernama `i`,`j`,`k`, dll. Namun, kalian tetap bebas akan memakai tipe data / nama apa saja)
+- Kondisi: merupakan kondisi yang harus dipenuhi agar perulangan berjalanakan. Perulangan akan dilakukan apabila kondisi adalah BENAR atau TRUE dan berhenti apabila kondisi adalah SALAH atau FALSE.
+- Update: digunakan untuk meng-update nilai dari pencacah (biasanya berupa increment/decrement). Proses ini akan dieksekusi setelah isi dari `for statement` habis.
 
 **CATATAN!!!**
 
@@ -33,14 +33,14 @@ Ini adalah perulangan For ke-1
 Ini adalah perulangan For ke-2
 ```
 Analisa program : 
-1. Variabel `i` **diinisialisasi** sebagai variabel counter dengan nilai awal `i` adalah 0
-2. **Kondisi** `i < 3` adalah **BENAR** (0 lebih kecil daripada 3) sehingga isi dari `for statement` dieksekusi
-3. Setelah dieksekusi, dilakukan proses **update** sehingga nilai dari `i` adalah 1
-4. **Kondisi** `i < 3` adalah **BENAR** (1 lebih kecil daripada 3) sehingga isi dari `for statement` dieksekusi
-5. Setelah dieksekusi, dilakukan proses **update** sehingga nilai dari `i` adalah 2
-6. **Kondisi** `i < 3` adalah **BENAR** (2 lebih kecil daripada 3) sehingga isi dari `for statement` dieksekusi
-7. Setelah dieksekusi, dilakukan proses **update** sehingga nilai dari `i` adalah 3
-8. **Kondisi** `i < 3` adalah **SALAH** (3 TIDAK lebih kecil daripada 3) sehingga proses perulangan `for statement` selesai
+1. Variabel `i` **diinisialisasi** sebagai variabel counter dengan nilai awal `i` adalah 0.
+2. **Kondisi** `i < 3` adalah **BENAR** (0 lebih kecil daripada 3) sehingga isi dari `for statement` dieksekusi.
+3. Setelah dieksekusi, dilakukan proses **update** sehingga nilai dari `i` adalah 1.
+4. **Kondisi** `i < 3` adalah **BENAR** (1 lebih kecil daripada 3) sehingga isi dari `for statement` dieksekusi.
+5. Setelah dieksekusi, dilakukan proses **update** sehingga nilai dari `i` adalah 2.
+6. **Kondisi** `i < 3` adalah **BENAR** (2 lebih kecil daripada 3) sehingga isi dari `for statement` dieksekusi.
+7. Setelah dieksekusi, dilakukan proses **update** sehingga nilai dari `i` adalah 3.
+8. **Kondisi** `i < 3` adalah **SALAH** (3 TIDAK lebih kecil daripada 3) sehingga proses perulangan `for statement` selesai.
 
 Flowchart : 
 <p align ="center">  <img width = "450" height "350" src = "https://github.com/XnoahR/KP2022/blob/main/Fold/ForStatement1.png" </p>
@@ -84,4 +84,23 @@ Ini adalah perulangan For ke-4
 ```
 </details>
     
-    
+## Tambahan
+1. Pastikan nilai yang ada pada variabel counter dan kondisi benar, sehingga program dapat berhenti.
+Berikut merupakan contoh program yang gagal :
+```c
+for( int i=10; i>=0; i++ ){
+    printf("Hello World!\n");
+}
+```
+Pada kode di atas, sampai kapanpun `i` di_increment_ pasti akan selalu lebih besar dari 0 sehingga akan menghasilkan _infinite loop_ dan program kalian tidak akan berhenti melakukan perulangan.
+
+2. Variabel yang dideklarasi pada bagian **inisialisasi** HANYA bisa digunakan di dalam `for statement` saja
+```c
+for (int i = 0; i < 3; i++){
+    printf("Ini adalah perulangan For ke-%d\n", i);
+}
+
+printf("nilai variabel i di luar loop = %d", i); // Kode di samping akan menyebabkan error
+```
+Dapat dilihat bahwa variabel `i` dideklarasi pada komponen **inisialisasi** di `for statement` sehingga setelah perulangan selesai variabel `i` akan _dihancurkan_  atau dihapus.
+
