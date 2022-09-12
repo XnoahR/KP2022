@@ -43,7 +43,7 @@ Analisa program :
 8. **Kondisi** `i < 3` adalah **SALAH** (3 TIDAK lebih kecil daripada 3) sehingga proses perulangan `for statement` selesai.
 
 Flowchart : 
-<p align ="center">  <img width = "450" height "350" src = "https://github.com/XnoahR/KP2022/blob/main/Fold/ForStatement1.png" </p>
+<p align ="center">  <img width = "480" height "380" src = "https://github.com/XnoahR/KP2022/blob/main/Fold/ForStatement1.png" </p>
 
 **CATATAN!!!**
 
@@ -93,7 +93,7 @@ for( int i=10; i>=0; i++ ){
 }
 ```
 Pada kode di atas, sampai kapanpun `i` di_increment_ pasti akan selalu lebih besar dari 0 sehingga akan menghasilkan _infinite loop_ dan program kalian tidak akan berhenti melakukan perulangan.\
-Kode di atas dapat diperbaiki dengan cara mengubah nilai update menjadi _decrement_, sehingga program dapat berjalan.\
+Kode di atas dapat diperbaiki dengan cara mengubah nilai update menjadi _decrement_, sehingga program dapat berjalan.
 ```c
 for( int i=5; i>=0; i-- ){
     printf("Hello World!\n");
