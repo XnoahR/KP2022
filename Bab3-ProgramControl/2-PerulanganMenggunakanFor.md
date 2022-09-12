@@ -51,3 +51,37 @@ Perhatikan nilai dari variabel counter dan kondisi serta tanda pertidaksamaan ya
 - apabila `i = 0` dan kondisi `i < 5` maka akan dilakukan perulangan sebanyak 5 kali, yaitu saat `i = 0, 1, 2, 3, 4`.
 - apabila `i = 0` dan kondisi `i <= 5` maka akan dilakukan perulangan sebanyak 6 kali, yaitu saat `i = 0, 1, 2, 3, 4, 5`.
 - apabila `i = 1` dan kondisi `i < 5` maka akan dilakukan perulangan sebanyak 4 kali, yaitu saat `i = 1, 2, 3, 4`.
+
+## Source code
+
+<details>
+<summary>Contoh source code (full)</summary>
+
+```c
+#include <stdio.h>
+
+int main(){
+    int count;
+
+    printf("Masukkan jumlah perulangan yang diinginkan : ");
+    scanf("%d", &count);
+    
+    for (int i = 1; i <= count; i++){
+        printf("Ini adalah perulangan For ke-%d\n", i);
+    }
+    return 0;
+}
+
+/*
+Output:
+
+Masukkan jumlah perulangan yang diinginkan : 4
+Ini adalah perulangan For ke-1
+Ini adalah perulangan For ke-2
+Ini adalah perulangan For ke-3
+Ini adalah perulangan For ke-4
+*/
+```
+</details>
+    
+    
