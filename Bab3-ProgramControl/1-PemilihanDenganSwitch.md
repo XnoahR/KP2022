@@ -1,3 +1,4 @@
+[<< Materi Sebelumnya (Daftar Materi) <<](../DaftarMateri.md)
 # 3.1 - Pemilihan dengan Switch
 
 Kondisi SWITCH CASE adalah percabangan kode program dimana kita membandingkan isi sebuah variabel dengan beberapa nilai. Jika proses perbandingan tersebut menghasilkan nilai true, maka block kode program akan dijalankan. Switch case sangat berguna ketika ingin melakukan perbandingan untuk banyak kasus.
@@ -157,3 +158,5 @@ int main() {
 }
   ```
 </details>
+
+[>> Materi Berikutnya (Perulangan menggunakan "for") >>](2-PerulanganMenggunakanFor.md)
