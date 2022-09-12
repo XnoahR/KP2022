@@ -1,3 +1,4 @@
+[<< Materi Sebelumnya (Pemilihan dengan "switch") <<](1-PemilihanDenganSwitch.md)
 # Perulangan Menggunakan For Statement
 
 Perulangan (atau dalam bahasa inggris disebut dengan **loop**) adalah instruksi kode program yang bertujuan untuk mengulang beberapa baris perintah. Pada materi sebelumnya telah dipelajari tentang perulangan menggunakan **while statement**, kali ini kita akan mempelajari perulangan menggunakan for statement.
@@ -119,3 +120,4 @@ printf("nilai variabel i di luar loop = %d", i); // Kode di samping akan menyeba
 ```
 Dapat dilihat bahwa variabel `i` dideklarasi pada komponen **inisialisasi** di `for statement` sehingga setelah perulangan selesai variabel `i` akan _dihancurkan_  atau dihapus.
 
+[>> Materi Selanjutnya (Perulangan menggunakan "do while") >>](3-PerulanganMenggunakanDoWhile.md)
