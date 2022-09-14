@@ -88,3 +88,4 @@ int main() {
     return 0;
 }
 ```
+[>> Materi Berikutnya(Operasi Assignment dan Aritmatika)](3-OperasiAssignmentdanAritmatika.md)
