@@ -202,4 +202,4 @@ Quack! Quack! Quack!
 ```
 </details>
 
-Bab 1 selesai. [Kembali ke silabus](../silabus.md)
+Bab 1 selesai. [Kembali ke Daftar Materi](../DaftarMateri.md)
