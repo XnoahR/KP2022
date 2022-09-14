@@ -1,3 +1,4 @@
+[<<Materi Sebelumnya(Pengantar (Program Sederhana, Variabel, dan Basic I/O)](1-PengantarProgramSederhanaVariabel.md)
 # 2.2 - Algoritma, Pseudocode, dan Source Code
 
 Dalam pembuatan program, kita pasti akan sering berhadapan dengan istilah "algoritma", "pseudocode", dan "source code". Sebenarnya apa sih perbedaan yang paling mendasar di antara mereka bertiga? Mari kita bahas semuanya di sini.
