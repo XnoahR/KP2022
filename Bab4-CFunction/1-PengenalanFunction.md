@@ -268,3 +268,5 @@ volume balok adalah 60
 */
 ```
 </details>
+
+[>> Materi Berikutnya(Fungsi Library C)](2-FungsiLibraryC.md)
