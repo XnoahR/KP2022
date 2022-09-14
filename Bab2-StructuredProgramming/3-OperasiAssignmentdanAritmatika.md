@@ -55,4 +55,4 @@ Selain dua jenis operator dasar tersebut, masih banyak operator lain yang akan d
 - Operator Bitwise
 - Lain-lainnya, seperti conditional/ternary, pointer, dan reference.
 
-[>> Materi Berikutnya (Pemilihan dan Perulangan Sederhana) >>](4-PemilihanPerulangan.md) 
+[>> Materi Berikutnya (Pemilihan dan Perulangan Sederhana) >>](4-PemilihandanPerulanganSederhana.md) 
