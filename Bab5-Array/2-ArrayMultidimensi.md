@@ -18,7 +18,7 @@ arr[3] -> 4
 arr[4] -> 5
 ```
 
-Bagaimana jika kita ingin membuat representasi vektor dua dimensi (seperti dibawah) menggunakan array di C?
+Bagaimana jika kita ingin membuat representasi matriks dua dimensi (seperti dibawah) menggunakan array di C?
 
 ```
 1 2 3
