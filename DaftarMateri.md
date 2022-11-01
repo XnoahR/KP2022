@@ -28,4 +28,16 @@
   2. [PasByRef](Bab6-Pointer/2-PasByRef.md)
   3. [DMA](Bab6-Pointer/3-DMA.md)
   
+- Bab 7 - Formatted I/O
+	1. [Printf Formats](Bab7-FormattedIO/1-PrintfFormats.md)
+	2. [Scanf Formats](Bab7-FormattedIO/2-ScanfFormats.md)
 
+- Bab 8 - Topik C Lanjutan
+    1. [Struct dan Union](Bab8-TopikCLanjutan/1-StructUnion.md)
+    2. [Bit Manipulation](Bab8-TopikCLanjutan/2-BitManipulation.md)
+    3. [Enumeration](Bab8-TopikCLanjutan/3-Enum.md)
+
+- Bab 9 - File Processing
+    1. [Pengantar File Processing](Bab9-FileProcessing/1-Pengantar.md)
+    2. [Sequential Access](Bab9-FileProcessing/2-SequentialAccess.md)
+    3. [Random Access](Bab9-FileProcessing/3-RandomAccess.md)
