@@ -6,7 +6,7 @@ Sekarang kita tinjau kembali masalah yang ada pada topik pengantar sebelumnya
 ```c
 #include <stdio.h>
 
-void kurangi_health(int jumlah);
+void kurangi_health(int health, int jumlah);
 
 int main() {
     int health = 100;
@@ -15,14 +15,14 @@ int main() {
 
     /* Asumsikan anda ingin mengurangi nilai dari `health` sebesar 20 */
     /* Akan tetapi anda tidak ingin mengurangkannya langsung di sini, melainkan melalui suatu function */
-    kurangi_health(20);
+    kurangi_health(health, 20);
 
     printf("Health akhir: %d\n", health);
 
     return 0;
 }
 
-void kurangi_health(int jumlah) {
+void kurangi_health(int health, int jumlah) {
     /* Namun terdapat suatu masalah di sini, yaitu scopenya berbeda dengan main() */
     /* Sehingga pada area ini, `health` tidak terdefinisi dan kode di bawah akan memproduksi error */
 
