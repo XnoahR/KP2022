@@ -41,3 +41,19 @@
     1. [Pengantar File Processing](Bab9-FileProcessing/1-Pengantar.md)
     2. [Sequential Access](Bab9-FileProcessing/2-SequentialAccess.md)
     3. [Random Access](Bab9-FileProcessing/3-RandomAccess.md)
+
+- Bab 11 - Preprocessor
+    1. [Pengantar](Bab11-Preprocessor/1-Pengantar.md)
+    2. [Symbolic Constant dan Macro](Bab11-Preprocessor/2-SymbolicConstantDanMacro.md)
+    3. [Conditional Compilation](Bab11-Preprocessor/3-ConditionalCompilation.md)
+
+- Bab 12 - Materi Tambahan
+    1. [I/O Redirection](Bab12-MateriTambahan/1-RedirectingInputOutput.md)
+    2. [Variable Length Argument](Bab12-MateriTambahan/2-VariableLengthArg.md)
+    3. [C Command Line Argument](Bab12-MateriTambahan/3-CCommandLineArg.md)
+
+- Bab 13 - Pengenalan OOP
+    1. [Konsep Class dan Object](Bab13-PengenalanOOP/1-KonsepClassObject.md)
+    2. [Constructor dan Destructor](Bab13-PengenalanOOP/2-ConstructorDanDestructor.md)
+    3. [Class Pointer](Bab13-PengenalanOOP/3-ClassPointer.md)
+
