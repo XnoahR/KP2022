@@ -72,7 +72,7 @@ Penggunaan macro memungkinkan kita membuat suatu fungsi yang lebih mudah untuk d
 
 Contoh:
 ```c
-#include <stdio
+#include <stdio.h>
 #define DAMAGE(atk, def) (atk)*(100 - (def))/100
 
 int main(void){
@@ -160,7 +160,7 @@ Operator ini digunakan apabila definisi statement preprocessor lebih dari satu b
 
 contoh:
 ```c
-#define MACRO(x)  printf("Anda sedang menggunakan macro\n); \
+#define MACRO(x)  printf("Anda sedang menggunakan macro\n"); \
                   printf("Argumen macro ini ialah " #x "\n"); \
                   printf("Keluar dari macro...\n");
 ```
