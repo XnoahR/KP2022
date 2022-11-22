@@ -247,4 +247,4 @@ Tafsiran isi file setelah seek : 750 | 2000 | 2500 | 3100 | 4750
 */
 ```
 
-[Silabus >>](../silabus.md)
+[Daftar Materi >>](../DaftarMateri.md)
