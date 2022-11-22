@@ -57,4 +57,4 @@ for (i = 0; i < 5; i++) {
 printf("Hasil: %d\n", Y);
 ```
 
-[Symbolic Constant dan Macro >>](2-Symbolic-Constant-dan-Macro.md)
+[Symbolic Constant dan Macro >>](2-SymbolicConstantDanMacro.md)
